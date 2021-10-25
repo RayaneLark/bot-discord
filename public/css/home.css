@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    color: black;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2f3136;
+}
+
+
+.form-index {
+    width: 20%;
+    height: 50%;
+    display: grid;
+    grid-row: auto auto auto;
+    grid-row-gap: 1.5rem;
+    border-radius: 25px;
+    padding: 5%;
+    background: #379c6fd0;
+}
+
+.form-index input {
+    width: 100%;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 100%;
+    border-radius: 25px;
+    background: #2D283Ed0;
+    color: #FFFF;
+    outline: none;
+    border: none;
+}
+
+.form-index select {
+    width: 100%;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 100%;
+    border-radius: 25px;
+    background: #2D283Ed0;
+    color: #FFFF;
+    outline: none;
+    border: none;
+}
+
+.form-index button {
+    text-align: center;
+    border-radius: 25px;
+    background: #FFFFd0;
+    font-size: 100%;
+    border: none;
+}
+
+.form-index button:hover {
+    background:#FFE9;
+}
+
+.form-logout {
+    width: 10%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0%;
+
+}
+
+#logout {
+    width: 90%;
+    height: 40%;
+    border-radius: 25px;
+    border: none;
+}
+
+#logout:hover {
+    background: crimson;
+}
